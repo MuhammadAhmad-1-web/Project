@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places to Travel Worldwide!</title>
+    <style type="text/css">
+        * {
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            background: #00bcd4;
+            padding: 15px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .navdiv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo a {
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        li a {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 25px;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        li a:hover {
+            color: #f1c40f;
+            text-decoration: underline;
+            text-decoration-color: #f1c40f;
+            transform: scale(1.1);
+        }
+
+        
+        .image-container {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+
+       
+        .image-container img {
+            display: block;
+            width: 100%;        
+        }
+
+       
+        .content {
+            padding: 20px;
+            text-align: center;
+            background-color: #f9f9f9; 
+            margin-top: -30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+        }
+
+        .content h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #555;
+            margin-top: 15px;
+        }
+        .contact-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #00bcd4; 
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; 
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.contact-link:hover {
+    color: #f1c40f; 
+    text-decoration: underline; 
+    transform: scale(1.1);
+}
+
+     
+        
+
+        
+       
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">TourTrekk</a></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Tours.html">Tours</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="image-container">
+        <img src="Tourist.jpg" alt="First Image">
+        <img src="tourist1.jpg" alt="Second Image">
+    </div>
+
+    <div class="content">
+        <br><br>
+        <h1>YOUR JOURNEY BEGINS</h1>
+        <p>Book Your Next Tour Today</p>      
+        <a href="contact.html" class="contact-link">Contact Us</a>
+        </div>
+    </div>
+    
+
+</body>
+</html>
+
